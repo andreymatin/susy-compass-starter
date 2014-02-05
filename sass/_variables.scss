@@ -1,0 +1,14 @@
+/* Variables */
+
+/* Compass */
+$experimental-support-for-khtml:false;
+$experimental-support-for-ms:false;
+$legacy-support-for-ie : false;
+$legacy-support-for-ie6 : $legacy-support-for-ie;
+
+/* Grid */
+$total-columns: 12;
+$column-width: 60px;
+$gutter-width: 20px;
+$grid-padding: 10px;
+$container-width: 980px;

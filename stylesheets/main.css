@@ -1,0 +1,148 @@
+/* Variables */
+/* Compass */
+/* Grid */
+/* Reset */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* Placeholder */
+body {
+  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-stretch: normal;
+  overflow: hidden; }
+
+main {
+  display: block; }
+
+a,
+a:focus,
+a:active {
+  outline: none; }
+
+ul, li {
+  list-style: none; }
+
+h1, h2, h3, h4, ul, li, p, form, figure, menu {
+  margin: 0;
+  padding: 0; }
+
+table {
+  width: 100%; }
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0; }
+  textarea.placeholder, input[type="text"].placeholder, input[type="password"].placeholder, input[type="datetime"].placeholder, input[type="datetime-local"].placeholder, input[type="date"].placeholder, input[type="month"].placeholder, input[type="time"].placeholder, input[type="week"].placeholder, input[type="number"].placeholder, input[type="email"].placeholder, input[type="url"].placeholder, input[type="search"].placeholder, input[type="tel"].placeholder, input[type="color"].placeholder, .uneditable-input.placeholder {
+    color: #5f5f5f; }
+  textarea:-moz-placeholder, input[type="text"]:-moz-placeholder, input[type="password"]:-moz-placeholder, input[type="datetime"]:-moz-placeholder, input[type="datetime-local"]:-moz-placeholder, input[type="date"]:-moz-placeholder, input[type="month"]:-moz-placeholder, input[type="time"]:-moz-placeholder, input[type="week"]:-moz-placeholder, input[type="number"]:-moz-placeholder, input[type="email"]:-moz-placeholder, input[type="url"]:-moz-placeholder, input[type="search"]:-moz-placeholder, input[type="tel"]:-moz-placeholder, input[type="color"]:-moz-placeholder, .uneditable-input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #5f5f5f; }
+  textarea::-moz-placeholder, input[type="text"]::-moz-placeholder, input[type="password"]::-moz-placeholder, input[type="datetime"]::-moz-placeholder, input[type="datetime-local"]::-moz-placeholder, input[type="date"]::-moz-placeholder, input[type="month"]::-moz-placeholder, input[type="time"]::-moz-placeholder, input[type="week"]::-moz-placeholder, input[type="number"]::-moz-placeholder, input[type="email"]::-moz-placeholder, input[type="url"]::-moz-placeholder, input[type="search"]::-moz-placeholder, input[type="tel"]::-moz-placeholder, input[type="color"]::-moz-placeholder, .uneditable-input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #5f5f5f; }
+  textarea::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="datetime"]::-webkit-input-placeholder, input[type="datetime-local"]::-webkit-input-placeholder, input[type="date"]::-webkit-input-placeholder, input[type="month"]::-webkit-input-placeholder, input[type="time"]::-webkit-input-placeholder, input[type="week"]::-webkit-input-placeholder, input[type="number"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, input[type="url"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, input[type="color"]::-webkit-input-placeholder, .uneditable-input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #5f5f5f; }
+  textarea:-ms-input-placeholder, input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder, input[type="datetime"]:-ms-input-placeholder, input[type="datetime-local"]:-ms-input-placeholder, input[type="date"]:-ms-input-placeholder, input[type="month"]:-ms-input-placeholder, input[type="time"]:-ms-input-placeholder, input[type="week"]:-ms-input-placeholder, input[type="number"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, input[type="url"]:-ms-input-placeholder, input[type="search"]:-ms-input-placeholder, input[type="tel"]:-ms-input-placeholder, input[type="color"]:-ms-input-placeholder, .uneditable-input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #5f5f5f; }
+
+button {
+  cursor: pointer; }
+
+img {
+  border: none; }
+
+/* Grid */
+.container {
+  max-width: 960px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.col-1 {
+  width: 6.38298%;
+  float: left;
+  margin-right: 2.12766%; }
+
+.col-2 {
+  width: 14.89362%;
+  float: left;
+  margin-right: 2.12766%; }
+
+.col-3 {
+  width: 23.40426%;
+  float: left;
+  margin-right: 2.12766%; }
+
+.col-4 {
+  width: 31.91489%;
+  float: left;
+  margin-right: 2.12766%; }
+
+.col-5 {
+  width: 40.42553%;
+  float: left;
+  margin-right: 2.12766%; }
+
+.col-6 {
+  width: 48.93617%;
+  float: left;
+  margin-right: 2.12766%; }
+
+.col-7 {
+  width: 57.44681%;
+  float: left;
+  margin-right: 2.12766%; }
+
+.col-8 {
+  width: 65.95745%;
+  float: left;
+  margin-right: 2.12766%; }
+
+.col-9 {
+  width: 74.46809%;
+  float: left;
+  margin-right: 2.12766%; }
+
+.col-10 {
+  width: 82.97872%;
+  float: left;
+  margin-right: 2.12766%; }
+
+.col-11 {
+  width: 91.48936%;
+  float: left;
+  margin-right: 2.12766%; }
+
+.col-12 {
+  width: 91.48936%;
+  float: left;
+  margin-right: 2.12766%; }
+
+/* Typography */
+/* Sections */
+/* Main */
+/* Footer */
+@media only screen and (max-width: 1281px) {
+  /* hi-res laptops and desktops */ }
+@media only screen and (max-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */ }
+@media only screen and (max-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media only screen and (max-width: 641px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media only screen and (max-width: 481px) {
+  /* smartphones, Android phones, landscape iPhone */ }
+@media only screen and (max-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }

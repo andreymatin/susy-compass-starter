@@ -1,0 +1,15 @@
+@import "susy";
+@import "compass";
+@import "variables";
+@import "reset";
+@import "grid";
+@import "typo";
+@import "sections";
+
+
+@media only screen and (max-width:1281px) { /* hi-res laptops and desktops */ }
+@media only screen and (max-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media only screen and (max-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media only screen and (max-width:641px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media only screen and (max-width:481px) { /* smartphones, Android phones, landscape iPhone */ }
+@media only screen and (max-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
