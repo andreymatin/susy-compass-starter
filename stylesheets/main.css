@@ -1,13 +1,24 @@
 /* Variables */
 /* Compass */
 /* Grid */
+/* Funtions */
+/* Clearfix */
+.bs_clearfix, .row {
+  *zoom: 1; }
+  .bs_clearfix:before, .row:before, .bs_clearfix:after, .row:after {
+    display: table;
+    content: "";
+    line-height: 0; }
+  .bs_clearfix:after, .row:after {
+    clear: both; }
+
+/* Placeholder */
 /* Reset */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* Placeholder */
 body {
   font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-stretch: normal;
@@ -69,6 +80,9 @@ img {
     content: "";
     display: table;
     clear: both; }
+
+.row > div:last-child {
+  margin-right: 0; }
 
 .col-1 {
   width: 6.38298%;

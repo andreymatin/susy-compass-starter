@@ -1,0 +1,39 @@
+/* Funtions */
+
+/* Clearfix */
+.bs_clearfix {
+	*zoom: 1;
+	&:before,
+	&:after {
+		display: table;
+		content: "";
+		// Fixes Opera/contenteditable bug:
+		// http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+		line-height: 0;
+	}
+	
+	&:after {
+		clear: both;
+	}
+}
+
+/* Placeholder */
+@mixin input-placeholder($color) {
+	&.placeholder {
+		color: $color; 
+	}
+	&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		color: $color; 
+	}
+	&::-moz-placeholder { /* Mozilla Firefox 19+ */
+		color: $color; 
+	}
+	&::-webkit-input-placeholder { /* WebKit browsers */
+		color: $color; 
+	} 
+	&:-ms-input-placeholder { /* Internet Explorer 10+ */
+		color: $color;
+	}
+}
+
+$prefixes: ("-webkit-", "-moz-", "-o-", "");

@@ -3,34 +3,13 @@
 	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
-/* Placeholder */
-@mixin input-placeholder($color) {
-	&.placeholder {
-		color: $color; 
-	}
-	&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-		color: $color; 
-	}
-	&::-moz-placeholder { /* Mozilla Firefox 19+ */
-		color: $color; 
-	}
-	&::-webkit-input-placeholder { /* WebKit browsers */
-		color: $color; 
-	} 
-	&:-ms-input-placeholder { /* Internet Explorer 10+ */
-		color: $color;
-	}
-}
-
-$prefixes: ("-webkit-", "-moz-", "-o-", "");
-
 body {
 	font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
 	font-stretch: normal;
 	overflow: hidden;
 }
 
-main {
+main, menu {
 	display: block;
 }
 
