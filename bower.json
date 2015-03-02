@@ -1,0 +1,28 @@
+{
+	"name": "susy-compass-starter",
+	"version": "1.0.2",
+	"homepage": "https://github.com/andreymatin/susy-compass-starter",
+	"author": {
+		"name": "Andrey Matin",
+		"web": "http://andreymatin.com"
+	},
+	"description": "SUSY + Compass + Tweaks = Modern HTML5 Template Starter",
+	"main": "index.html",
+	"keywords": [
+		"susy",
+		"compass",
+		"HTML5",
+		"sass",
+		"scss"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andreymatin/susy-compass-starter"
+	},
+	"licenses": [
+	{
+		"type": "MIT",
+		"url": "https://github.com/mateuszkocz/3l/blob/master/3L/LICENCES.md"
+		}
+	]
+}
